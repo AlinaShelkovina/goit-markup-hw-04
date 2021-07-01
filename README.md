@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-lesson-blocks
+# home_work_1
+HTML\CSS (basic)
