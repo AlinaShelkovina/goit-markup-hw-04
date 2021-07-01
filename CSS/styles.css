@@ -96,6 +96,11 @@ body {
   text-transform: uppercase;
 }
 
+/* section team */
+.section-team {
+  background-color: var(--bg-gray);
+}
+
 /* features */
 .feature-list.text {
   font-size: 14px;
@@ -142,6 +147,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 .button.link:hover,
 .button.link:focus,
