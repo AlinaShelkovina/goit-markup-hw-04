@@ -65,7 +65,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 
 .invisible-text {
@@ -212,14 +211,6 @@ img {
 
 /* section */
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.section.no-padding {
-  padding-bottom: 0px;
-  padding-top: 0px;
-}
 .section-title {
   color: var(--second-color-text);
   font-weight: 700;
@@ -333,6 +324,7 @@ img {
   padding-bottom: 30px;
   padding-top: 30px;
   background-color: white;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-title.name {
@@ -350,7 +342,6 @@ img {
 
 .list-button {
   display: flex;
-  margin-bottom: 50px;
 
   margin-left: auto;
   margin-right: auto;
@@ -381,39 +372,22 @@ img {
 }
 
 .card {
-  border: solid var(--grey-border) 1px;
 }
 
 .card-thumb {
 }
+
 .item-card {
 }
 
 .card-content {
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border: solid var(--grey-border) 1px;
+  border-top: hidden;
+
+  padding: 20px 24px 20px 24px;
 }
 
-/* links 
-.team-face {
-  display: flex;
-  flex-wrap: wrap;
-
-  list-style: none;
-  text-decoration: none;
-
-  margin-left: -30px;
-}
-
-.team-face > .item {
-  text-align: center;
-  outline: solid blueviolet 1px;
-
-  flex-basis: calc(100% / 4 - 30px);
-
-  margin-left: 30px;*/
+/* links */
 
 .list-link {
   display: flex;
@@ -421,14 +395,12 @@ img {
 
   list-style: none;
   padding: 0;
-  margin: 0px;
-
+  margin-top: 20px;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 .list-link > .item-card {
-  flex-basis: calc(100% / 3 - 30 px);
+  flex-basis: calc(100% / 3 - 30px);
 
   margin-left: 30px;
   margin-top: 30px;
