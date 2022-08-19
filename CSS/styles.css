@@ -200,6 +200,7 @@ img {
 .contact-header {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .list.contact-header.link .item:not(:last-child) {
@@ -214,10 +215,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   margin: 0px;
-
   padding-top: 32px;
   padding-bottom: 32px;
-
   align-items: center;
 }
 .contact-header .link:hover,
@@ -228,7 +227,6 @@ img {
 .header-icon {
   fill: currentColor;
   margin-right: 10px;
-
 }
 
 
