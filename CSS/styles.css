@@ -439,6 +439,11 @@ img {
   color: var(--white-color-text);
 }
 
+.icon-team {
+  display: block;
+  fill: currentColor;
+}
+
 /* section link */
 
 .list-button {
