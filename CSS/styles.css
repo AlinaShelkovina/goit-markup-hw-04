@@ -217,6 +217,8 @@ img {
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  align-items: center;
 }
 .contact-header .link:hover,
 .contact-header .link:focus {
@@ -226,7 +228,7 @@ img {
 .header-icon {
   fill: currentColor;
   margin-right: 10px;
-  align-items: center;
+
 }
 
 
